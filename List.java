@@ -27,6 +27,11 @@ public class List {
         return first.cp;
     }
 
+    /** Returns the node */
+    public Node getNode() {
+        return this.first;
+    }
+
     /** GIVE Adds a CharData object with the given character to the beginning of this list. */
     public void addFirst(char chr) {
         Node newnode = new Node(new CharData(chr));
